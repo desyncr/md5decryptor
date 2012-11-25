@@ -6,7 +6,7 @@ It can be easily extendible to work with any other similar service.
 
 Based on http://stackoverflow.com/a/10235240
 
-## Usage
+# Usage
 ```php
 <?php
     $plain = Md5Decryptor\Md5Decryptor::plain($hash, 'Web\Google');
