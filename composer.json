@@ -1,8 +1,16 @@
 {
     "name": "asphxia/md5decryptor",
     "description": "Md5Decryptor is a neat tool that searchs for a given MD5 hash in a set of web-based resources.",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/asphxia/coil"
+        }
+    ],
+
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3",
+        "Succinct/Coil": "master",
     },
     "autoload": {
         "psr-0": {
