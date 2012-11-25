@@ -1,0 +1,12 @@
+{
+    "name": "asphxia/md5decryptor",
+    "description": "Md5Decryptor is a neat tool that searchs for a given MD5 hash in a set of web-based resources.",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Asphxia\\Md5Decryptor": "src/"
+        }
+    }
+}
