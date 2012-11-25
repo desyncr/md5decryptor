@@ -1,6 +1,6 @@
 <?php
-namespace Md5Decryptor\Provider\Web;
-class Decrypt extends \Md5Decryptor\Provider\Web
+namespace Asphxia\Md5Decryptor\Provider\Web;
+class Decrypt extends \Asphxia\Md5Decryptor\Provider\Web
 {
     protected $url = 'http://decrypt.fr/ajax/liste.php?hash=x%s';
 

@@ -1,6 +1,6 @@
 <?php
-namespace Md5Decryptor\Provider\Web;
-class Noisette extends \Md5Decryptor\Provider\Web
+namespace Asphxia\Md5Decryptor\Provider\Web;
+class Noisette extends \Asphxia\Md5Decryptor\Provider\Web
 {
     protected $url = 'http://md5.noisette.ch/index.php';
 

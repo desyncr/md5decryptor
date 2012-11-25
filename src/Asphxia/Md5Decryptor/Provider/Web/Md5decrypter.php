@@ -1,6 +1,6 @@
 <?php
-namespace Md5Decryptor\Provider\Web;
-class Md5decrypter extends \Md5Decryptor\Provider\Web
+namespace Asphxia\Md5Decryptor\Provider\Web;
+class Md5decrypter extends \Asphxia\Md5Decryptor\Provider\Web
 {
     protected $url = 'http://api.md5decrypter.co.uk/?';
 

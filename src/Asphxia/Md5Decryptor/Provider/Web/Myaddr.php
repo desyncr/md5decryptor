@@ -1,6 +1,6 @@
 <?php
-namespace Md5Decryptor\Provider\Web;
-class Myaddr extends \Md5Decryptor\Provider\Web
+namespace Asphxia\Md5Decryptor\Provider\Web;
+class Myaddr extends \Asphxia\Md5Decryptor\Provider\Web
 {
     protected $url = 'http://md5.my-addr.com/md5_decrypt-md5_cracker_online/md5_decoder_tool.php';
 

@@ -1,5 +1,5 @@
 <?php
-namespace Md5Decryptor;
+namespace Asphxia\Md5Decryptor;
 abstract class Md5Decryptor
 {
     abstract public function probe($hash);
@@ -8,7 +8,7 @@ abstract class Md5Decryptor
         if ($class === NULL) {
             $class = get_called_class();
         } else {
-            $class = sprintf('Md5Decryptor\Provider\%s', $class);
+            $class = sprintf('Asphxia\Md5Decryptor\Provider\%s', $class);
         }
         $decryptor = new $class();
 
