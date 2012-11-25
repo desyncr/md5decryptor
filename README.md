@@ -4,6 +4,8 @@ Md5Decryptor is a neat tool that searchs for a given MD5 hash in a set of web-ba
 
 It can be easily extendible to work with any other similar tool.
 
+Based on http://stackoverflow.com/a/10235240
+
 ## Usage
 ```php
 <?php
