@@ -10,7 +10,7 @@
 
     "require": {
         "php": ">=5.3",
-        "Succinct/Coil": "master",
+        "Succinct/Coil": "master"
     },
     "autoload": {
         "psr-0": {
